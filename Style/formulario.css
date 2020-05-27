@@ -1,0 +1,148 @@
+/*Estilização dos botoes e fontes do sexo*/
+div.sexo{
+    font: normal 13pt arial;
+    color: #4e4e4e;
+    margin-left: 50px;
+}
+#masculino, #feminino{
+    font: normal 14pt arial;
+    color: #606060;
+    padding: 5px;
+    border: 1px solid #dad8d8;
+    background: white;
+    cursor: pointer;
+}
+#feminino{
+    width: 197px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#masculino{
+    width: 197px;
+    margin-left: -5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#feminino:hover, #masculino:hover{
+    color: black;
+}
+
+
+/*Estilização do nome e o input*/
+div.nome{
+    color: #606060;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+div.nome input{
+    width: 385px;
+    font: normal 12pt arial;
+    padding: 3px;
+    border: 1px solid #dad8d8;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+/*Estilização da idade e o input*/
+div.idade{
+    color: #606060;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+div.idade input{
+    width: 385px;
+    font: normal 12pt arial;
+    padding: 3px;
+    border: 1px solid #dad8d8;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+/*Estilização do peso e input*/
+div.peso{
+    color: #606060;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+div.peso input{
+    width: 385px;
+    font: normal 12pt arial;
+    padding: 3px;
+    border: 1px solid #dad8d8;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+/*estilização da altura e input*/
+div.altura{
+    color: #606060;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+div.altura input{
+    width: 385px;
+    font: normal 12pt arial;
+    padding: 3px;
+    border: 1px solid #dad8d8;
+    border-radius: 5px;
+    transition: .3s;
+}
+.name:hover{
+    transition: .3s;
+    border: 1px solid #807f7f;
+}
+
+/*Estilização das atividades e os botoes*/
+div.ações{
+    font: normal 13pt arial;
+    color: #4e4e4e;
+    margin-left: 50px;
+}
+#sedentaria, #moderada, #intensa{
+    font: normal 14pt arial;
+    color: #606060;
+    padding: 5px;
+    border: 1px solid #dad8d8;
+    background: white;
+    cursor: pointer;
+}
+#sedentaria{
+    width: 131px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#moderada{
+    width: 133px;
+    margin-left: -5px;
+}
+#intensa{
+    width: 131px;
+    margin-left: -5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#sedentaria:hover, #moderada:hover, #intensa:hover{
+    color: black;
+}
+
+/*Estilização do botão de verificar*/
+#verificar{
+    font: normal 16pt arial;
+    color: white;
+    width: 395px;
+    margin: 20px 50px;
+    border: 1px solid #e0607a;
+    background: #e0607a;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #807f7f;
+    transition: .3s;
+    cursor: pointer;
+}
+#verificar:hover{
+    background: #cf3e5b;
+}

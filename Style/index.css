@@ -1,0 +1,44 @@
+#fundo{
+    background: url('../Image/fundo.jpg');
+}
+header h1{
+    font: normal 22pt arial;
+    background: #0a3257;
+    width: 600px;
+    text-align: center;
+    margin: 20px 200px;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*Estilização da cor, fonte, tamanho e bordas da seção*/
+section{
+    font: normal 13pt arial;
+    width: 600px;
+    height: 500px;
+    margin: 0 200px;
+    background: #f5f2f2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    margin-top: -20px;
+}
+section p{
+    font-size: 12pt;
+    text-align: justify;
+    color: #606060;
+}
+
+#lateral{
+    float: left;
+    width: 850px;
+    height: 885px;
+    margin-top: -615px;
+    margin-left: 1030px;
+    border: 1px solid #807f7f;
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px;
+}
+

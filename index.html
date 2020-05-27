@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./Image/icon.png">
+    <link rel="stylesheet" href="Style/reset.css">
+    <link rel="stylesheet" href="./Style/index.css">
+    <link rel="stylesheet" href="./Style/formulario.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora do IMC - Tua Saúde</title>
+</head>
+
+<body class="fundo">
+    <header>
+        <h1>Calculadora do IMC</h1>
+    </header>
+    <section>
+        <p>O índice de massa corporal(IMC) ajuda a identificar obesidade ou desnutrição em crianças, adolescentes,
+            adultos e idosos.</p>
+        <div class="sexo">
+            <label for="sexo">Sexo</label><br>
+
+            <input id="feminino" type="button" value="Feminino" onclick="clickMulher()">
+            <input id="masculino" type="button" value="Masculino" onclick="clickHomem()">
+        </div>
+        <form class="form">
+            <div class="info-pessoa">
+                <div class="nome">
+                    <label for="nome">Nome</label><br>
+                    <input name="usuario" type="text" placeholder="JOSE DA SILVA" required>
+                </div>
+                <div class="idade">
+                    <label for="idade">Idade</label><br>
+                    <input name="anos" type="text" placeholder="35" required> Anos
+                </div>
+                <div class="peso">
+                    <label for="peso">peso</label><br>
+                    <input name="quilos" type="text" placeholder="62,5" required> Kg
+                </div>
+                <div class="altura">
+                    <label for="altura">Altura</label><br>
+                    <input name="tamanho" type="text" placeholder="1,60" required> M
+                </div>
+
+                <div class="ações">
+                    <label for="atividade">Atividade Física</label><br>
+                    <input id="sedentaria" type="button" value="Sedentária" onclick="formaSedentaria()">
+                    <input id="moderada" type="button" value="Moderada" onclick="formaModerada()">
+                    <input id="intensa" type="button" value="Intensa" onclick="formaIntensa()">
+                </div>
+                <input id="verificar" type="submit" value="Calcular" onclick="calcularIMC()">
+            </div>
+        </form>
+    </section>
+    <aside class="lateral">
+        <div id="lateral">
+
+        </div>
+    </aside>
+
+    <script src="./JS/selecionaBotoes.js"></script>
+    <script src="./JS/calcularIMC.js"></script>
+</body>
+
+</html>
